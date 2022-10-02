@@ -1,0 +1,39 @@
+
+.app {
+	padding: 150px 0;
+}
+
+.container {
+	max-width: 1344px;
+	padding: 0 48px;
+	margin: 0 auto;
+}
+
+.title {
+	font-family: 'Nekst', sans-serif;
+	font-weight: 900;
+	max-width: 753px;
+	font-size: 54px;
+	line-height: 48.6px;
+}
+
+@media(max-width: 1025px) {
+	.app {
+		padding: 100px 0;
+	}
+}
+
+@media(max-width: 769px) {
+	.app {
+		padding: 64px 0;
+	}
+}
+
+@media(max-width: 321px) {
+	.app {
+		padding: 44px 0;
+	}
+	.title {
+		font-size: 34px;
+	}
+}
